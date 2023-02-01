@@ -40,13 +40,13 @@ body{
     align-items: center;
 }
 #login_form{
-    width: 70%;
-    height: 500px;
-    background-color: white;
-    margin-left: 850px;
-    margin-right: 150px;
+    width: 30%;
+    height: 80%;
+    margin-left: 700px;
     border-radius: 5px;
+    background-color: #fff;
 }
+
 #form-navbar{
     height: 84px ;
     width: 100%;
@@ -71,25 +71,97 @@ body{
 
 .email input {
     height: 30px;
-    width: 440px;
+    width: 395px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    flex: 1;
+    flex-shrink: 0;
+    filter: none;
+    
 }
 .password input {
     height: 30px;
-    width: 440px;
+    width: 395px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    flex: 1;
+    flex-shrink: 0;
+    filter: none;
 }
-div button {
-    height: 30px;
-    width: 440px;
+#bt-login button {
+    padding: 5px;
+    background-color: #ee4d2d;
+    height: 40px;
+    width: 408px;
     margin-left: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+#login{
+    color: #fff;
+    
 }
 #form3{
     height: 10px ;
     width: 100%;
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-bottom: 100px;
 }
 .forgot{
-    margin-right: 260px;
+    margin-right: 180px;
+    margin-left: 20px;
+
+}
+.Facebook{
+    border: 1px solid rgba(0,0,0,.26);
+    background-color:white;
+    color: rgba(0,0,0,.87);
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 123px;
+    height: 40px;
+    font-size: .875rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.Google{
+    outline: none;
+    border: 1px solid rgba(0,0,0,.26);
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 123px;
+    height: 40px;
+    font-size: .875rem;
+    margin-right: 15px;
+}
+.Apple{
+    outline: none;
+    border: 1px solid rgba(0,0,0,.26);
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 123px;
+    height: 40px;
+    font-size: .875rem;
+}
+.no-account{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sign-up{
+    white-space: pre;
+    padding-right: 4px;
+    color: rgba(0,0,0,.26);
+    color: #ee4d2d;
 }
 
